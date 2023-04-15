@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jacob_Fail_Capstone.ManageInventoryPage">
+	
+    <ContentPage.Content>
+        <StackLayout>
+			<Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+				<Label Text="Manage Inventory" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+			</Frame>
+			<Button Text="Add Author" x:Name="addAuthorButton" Clicked="OnAddAuthorButtonClicked"/>
+			<Button Text="Remove Author" x:Name="removeAuthorButton" Clicked="OnRemoveAuthorButtonClicked"/>
+			<Button Text="Add Book" x:Name="addBookButton" Clicked="OnAddBookButtonClicked"/>
+			<Button Text="Remove Book" x:Name="removeBookButton" Clicked="OnRemoveBookButtonClicked"/>
+			<Button Text="Manage Stock Count" x:Name="manageStockCountButton" Clicked="OnManageStockCountButtonClicked"/>
+			<Button Text="Change Password" x:Name="changePasswordButton" Clicked="OnChangePasswordButtonClicked"/>
+			<Button Text="Log Out" x:Name="logOutButton" Clicked="OnLogOutButtonClicked"/>
+
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

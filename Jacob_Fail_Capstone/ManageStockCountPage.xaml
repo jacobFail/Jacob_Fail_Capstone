@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jacob_Fail_Capstone.ManageStockCountPage">
+    <ContentPage.Content>
+        <StackLayout>
+			<Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+				<Label Text="Manage Stock Count" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+			</Frame>
+			<Editor x:Name="searchBookTitleEditor"   Placeholder="Enter Book Title:"/>
+			<Editor x:Name="searchAuthorEditor" Placeholder="Enter Author Name:"/>
+			<Button x:Name="searchButton" Text="Search" Clicked="OnSearchButtonClicked"/>
+			<Editor x:Name="numberOfCopiesEditor" Placeholder="Number of Copies"/>
+			<Button x:Name="saveButton" Text="Save" Clicked="OnSaveButtonClicked"/>
+			<Label Text="Search a book to see the number of copies in stock.  Change the number and press save to change the stock count."/>
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

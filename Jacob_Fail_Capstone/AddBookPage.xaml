@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jacob_Fail_Capstone.AddBookPage">
+    <ContentPage.Content>
+        <StackLayout>
+			<Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+				<Label Text="Add Book" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+			</Frame>
+			<Editor Placeholder="Enter Book Title" x:Name="BookTitleEditor"/>
+			<Picker Title="Fiction or NonFiction" x:Name="FictionOrNonFictionPicker">
+				<Picker.Items>
+					<x:String>Fiction</x:String>
+					<x:String>Non Fiction</x:String>
+				</Picker.Items>
+			</Picker>
+			<Editor Placeholder="Enter Book Genre or Subject" x:Name="BookGenreOrSubjectEditor"/>
+			<Editor Placeholder="Enter Author Name" x:Name="AuthorNameEditor"/>
+			<Editor Placeholder="Enter Number of copies in stock:" x:Name="CopiesInStockEditor"/>
+
+			<Button Text="+ Add" x:Name="SaveBookButton" Clicked="OnSaveBookButtonClicked"/>
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jacob_Fail_Capstone.MainPage"
+	NavigationPage.HasBackButton="False">
+	<ScrollView HorizontalScrollBarVisibility="Default" VerticalScrollBarVisibility="Default">
+		<StackLayout>
+		
+
+		<Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+			<Label Text="View Inventory" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+		</Frame>
+		
+		<Editor x:Name="searchEditor"   Placeholder="Search"/>
+		
+		<Button x:Name="authorSearchButton" Text="Search by Author"  Clicked="OnAuthorSearchClicked"/>
+		<Button x:Name="fictionTitleSearchButton" Text="Search Fiction by Title" Clicked="OnFictionTitleSearchClicked"/>
+		<Button x:Name="nonFictionTitleSearchButton" Text="Search Non-Fiction by Title" Clicked="OnNonFictionTitleSearchClicked"/>
+		<Button x:Name="newArrivalsButton" Text="See New This Month" Clicked="OnNewArrivalsClicked"/>
+		<Button x:Name="AllFictionButton" Text="See All Fiction Titles" Clicked="OnAllFictionClicked"/>
+		<Button x:Name="AllNonFictionButton" Text="See All Non-Fiction Titles" Clicked="OnAllNonFictionClicked"/>
+		<Button x:Name="EmployeeLoginButton" Text="Employee Login" Clicked="OnEmployeeLoginClicked"/>
+		<Label Text="Results:" FontSize="Title" Padding="5,10,20,10"/>
+		<Label Text="Tap Result for Detailed View" FontSize="Small" Padding="5,1,2,1"/>
+		<ListView x:Name="resultList" ItemsSource="{Binding Results}" ItemTapped="OnSearchResultTapped"/>
+			
+		
+		
+		
+		
+
+
+
+	</StackLayout>
+		
+	</ScrollView>
+	
+
+</ContentPage>

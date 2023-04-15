@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jacob_Fail_Capstone.Android", "Jacob_Fail_Capstone.Android\Jacob_Fail_Capstone.Android.csproj", "{4812F207-EB32-401A-873B-CE658800F738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jacob_Fail_Capstone", "Jacob_Fail_Capstone\Jacob_Fail_Capstone.csproj", "{4A731000-D970-4B1B-B78F-A75BD9F693FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4812F207-EB32-401A-873B-CE658800F738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4812F207-EB32-401A-873B-CE658800F738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4812F207-EB32-401A-873B-CE658800F738}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4812F207-EB32-401A-873B-CE658800F738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4812F207-EB32-401A-873B-CE658800F738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4812F207-EB32-401A-873B-CE658800F738}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4A731000-D970-4B1B-B78F-A75BD9F693FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A731000-D970-4B1B-B78F-A75BD9F693FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A731000-D970-4B1B-B78F-A75BD9F693FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A731000-D970-4B1B-B78F-A75BD9F693FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A731000-D970-4B1B-B78F-A75BD9F693FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A731000-D970-4B1B-B78F-A75BD9F693FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D3AC282-140B-4862-9CC9-592296C81231}
+	EndGlobalSection
+EndGlobal
